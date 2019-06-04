@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula17;
+package com.loiane.cursojava.aula17.Exercicios;
 
 import java.util.Scanner;
 
@@ -11,10 +11,10 @@ public class Exercicio10 {
 
         System.out.print("Informe o primeiro número: ");
         n1 = scan.nextInt();
-        
+
         System.out.print("Informe o segundo número: ");
         n2 = scan.nextInt();
-        
+
         for (int i = n1; i < n2; i++) {
             System.out.println(i);
         }
